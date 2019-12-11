@@ -1,0 +1,33 @@
+<html>
+  <head></head>
+    <style>
+      body {
+        background: red;
+      }
+      .square {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: 0;
+        right:0;
+        background: purple;
+      }
+      button {
+        color: white;
+        background: green;
+      }
+    
+    </style>
+  <body>
+    <button id='goLeft'>
+      Left
+    </button>
+    <button id='goRight'>
+      right
+    </button>
+    <div class="square">
+      <button id="toggle">Toggle</button>
+    </div>
+    <script type="module" src='./renderer.js'></script>
+  </body>
+</html>
